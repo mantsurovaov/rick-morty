@@ -1,6 +1,4 @@
-## Rick&Morty Party
-
-# Доска объявлений
+# Rick&Morty Party
 
 ### Установка зависимостей:
 
