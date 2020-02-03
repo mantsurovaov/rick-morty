@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import FetchedPhotos from './FetchedPhotos';
-import { FlexWrapper } from '../ui/TextStyles';
-import { SearchInput } from '../ui/Input';
+import { FlexWrapper, SearchInput } from '../ui';
 
 const Input = () => {
 	const [input, setInput] = useState('');

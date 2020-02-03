@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import { gql } from 'apollo-boost';
 import { useQuery } from '@apollo/react-hooks';
-import { PlainText } from '../ui/TextStyles';
+import { PlainText } from '../ui';
 import FetchedPhoto, { IFetchedPhotoProps } from './FetchedPhoto';
 
 interface results {
