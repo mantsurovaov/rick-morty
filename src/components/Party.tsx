@@ -1,7 +1,8 @@
 import React from 'react';
 import { useQuery } from '@apollo/react-hooks';
 import { gql } from 'apollo-boost';
-import { Header, PartySlot, PartyCard, FlexWrapper } from '../styles';
+import { Header, FlexWrapper } from '../ui/TextStyles';
+import { PartySlot, PartyCard } from '../ui/PartyCard';
 
 interface getRickSlotData {
 	rickSlot: { name: string; image: string };

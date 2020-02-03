@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import { useMutation } from '@apollo/react-hooks';
-import { ImgWrapper, CloseSign, PhotoCard } from '../styles';
+import { ImgWrapper, CloseSign, PhotoCard } from '../ui/PhotoCard';
 import { gql } from 'apollo-boost';
 
 interface SaveToSlotData {
